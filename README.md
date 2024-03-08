@@ -54,6 +54,11 @@ Some extra libraries might be required, depending on the board / chip used.
 This code defaults to multi-region, meaning it will unlock PAL, NTSC-U and NTSC-J machines.
 You can optimize boot times for your console further. See "// inject symbols now" in the main loop.
 
+### NOTE FOR JAPANESE CONSOLES:
+
+Some NTSC-J consoles have an extra layer of region lock that wont allow backups of non NTSC-J games
+More info at https://quade.co/ps1-modchip-guide/ at section "What are the limitations of a modchip?"
+
 ----------------------------------------------------------------------
 
 BIOS patch for PM-41
